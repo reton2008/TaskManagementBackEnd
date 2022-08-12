@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d73eb83d-6e7e-4481-95b9-ab60f4300c58": {
+      "ProjectGuid": "d73eb83d-6e7e-4481-95b9-ab60f4300c58",
+      "DisplayName": "TaskManagerWebAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

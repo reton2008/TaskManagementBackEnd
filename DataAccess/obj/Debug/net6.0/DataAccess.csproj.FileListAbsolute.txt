@@ -1,0 +1,12 @@
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\TaskMamagement\TaskManagerWebAPI\DataAccess\obj\Debug\net6.0\DataAccess.pdb

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerWebAPI", "TaskManagerWebAPI.csproj", "{D73EB83D-6E7E-4481-95B9-AB60F4300C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Models\Models.csproj", "{22991FB4-1153-4F8C-85A7-F80709C6310C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{720A292F-D4E1-419E-9113-0EDBE3F0A1E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D73EB83D-6E7E-4481-95B9-AB60F4300C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73EB83D-6E7E-4481-95B9-AB60F4300C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73EB83D-6E7E-4481-95B9-AB60F4300C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73EB83D-6E7E-4481-95B9-AB60F4300C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22991FB4-1153-4F8C-85A7-F80709C6310C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22991FB4-1153-4F8C-85A7-F80709C6310C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22991FB4-1153-4F8C-85A7-F80709C6310C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22991FB4-1153-4F8C-85A7-F80709C6310C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720A292F-D4E1-419E-9113-0EDBE3F0A1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720A292F-D4E1-419E-9113-0EDBE3F0A1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720A292F-D4E1-419E-9113-0EDBE3F0A1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720A292F-D4E1-419E-9113-0EDBE3F0A1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A9951E1-12AE-4069-94F7-881A3E09C7F1}
+	EndGlobalSection
+EndGlobal
