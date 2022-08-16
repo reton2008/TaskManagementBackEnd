@@ -18,7 +18,7 @@ namespace Models
         [Required]
         public int PROJECT_ID { get; set; }
 
-        [ForeignKey("TASKS_PROJECT_ID")]
+        [ForeignKey("TASKSPROJECTID")]
         public PROJECTS TASK_PROJECT_ID { get; set; }
 
         [Required]

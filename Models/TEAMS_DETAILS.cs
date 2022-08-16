@@ -15,15 +15,15 @@ namespace Models
         [Required]
         public int TEAM_ID{ get; set; }
 
-        [ForeignKey("TEAM_DETAILS_ID")]
-        public TEAMS TEAM_DETAILS_ID { get; set; }
+        //[ForeignKey("TEAMDETAILSID")]
+        //public TEAMS TEAM_DETAILS_ID { get; set; }
 
 
         [Required]
         public int? TEAMS_EMPLOYEE { get; set; }
 
-        [ForeignKey("TEAMS_EMPLOYEE_ID")]
-        public EMPLOYEE TEAMS_EMPLOYEE_ID { get; set; }
+        //[ForeignKey("TEAMSEMPLOYEEID")]
+        //public EMPLOYEE TEAMS_EMPLOYEE_ID { get; set; }
 
         public int? MAKE_BY { get; set; }
 

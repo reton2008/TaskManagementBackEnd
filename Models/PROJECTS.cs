@@ -18,20 +18,20 @@ namespace Models
         [Required]
         public int PROJECT_MANAGER { get; set; }
 
-        [ForeignKey("TEAM_MANAGER_ID")]
-        public EMPLOYEE TEAM_MANAGER_Id { get; set; }
+        //[ForeignKey("TEAMMANAGERID")]
+        //public EMPLOYEE TEAM_MANAGER_Id { get; set; }
 
         [Required]
         public int PROJECT_TEAM { get; set; }
 
-        [ForeignKey("PROJECT_TEAM_ID")]
-        public TEAMS PROJECT_TEAM_ID { get; set; }
+        //[ForeignKey("PROJECTTEAMID")]
+        //public TEAMS PROJECT_TEAM_ID { get; set; }
 
         [Required]
-        public DateOnly? START_DATE { get; set; }
+        public DateTime? START_DATE { get; set; }
 
         [Required]
-        public DateOnly? END_DATE { get; set; }
+        public DateTime? END_DATE { get; set; }
 
         public int? MAKE_BY { get; set; }
 

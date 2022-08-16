@@ -18,14 +18,14 @@ namespace Models
         [Required]
         public int? TEAM_MANAGER { get; set; }
 
-        [ForeignKey("TEAM_MANAGER_Id")]
-        public EMPLOYEE TEAM_MANAGER_Id { get; set; }
+        //[ForeignKey("TEAMMANAGERId")]
+        //public EMPLOYEE TEAM_MANAGER_Id { get; set; }
 
         [Required]
         public int? TEAM_LEAD { get; set; }
 
-        [ForeignKey("TEAM_LEAD_ID")]
-        public EMPLOYEE TEAM_LEAD_ID { get; set; }
+        //[ForeignKey("TEAMLEADID")]
+        //public EMPLOYEE TEAM_LEAD_ID { get; set; }
 
         public int? MAKE_BY { get; set; }
 

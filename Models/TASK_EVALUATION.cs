@@ -14,20 +14,23 @@ namespace Models
 
         [Required]
         public int TASK_ID { get; set; }
-        [ForeignKey("TASK_EVALUATION_TASK_ID")]
+        [ForeignKey("TASK_EVALUATIONTASKID")]
         public TASKS TASK_EVALUATION_TASK_ID { get; set; }
 
         [Required]
         public int EVALUATION_BY { get; set; }
-        [ForeignKey("EVALUATION_EMPLOYEE_ID")]
-        public EMPLOYEE EVALUATION_EMPLOYEE_ID { get; set; }
+
+        //[ForeignKey("EVALUATIONEMPLOYEEID")]
+        //public EMPLOYEE EVALUATION_EMPLOYEE_ID { get; set; }
 
         public int MARKS { get; set; }
 
         public string REMARKS { get; set; }
+
         public int REF_BEST_USER { get; set; }
-        [ForeignKey("BEST_EMPLOYEE_ID")]
-        public EMPLOYEE BEST_EMPLOYEE_ID { get; set; }
+
+        //[ForeignKey("BESTEMPLOYEEID")]
+        //public EMPLOYEE BEST_EMPLOYEE_ID { get; set; }
 
         public int? MAKE_BY { get; set; }
 

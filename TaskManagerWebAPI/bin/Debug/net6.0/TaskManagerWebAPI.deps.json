@@ -537,7 +537,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
-          "Microsoft.Extensions.Identity.Stores": "6.0.8"
+          "Microsoft.Extensions.Identity.Stores": "6.0.8",
+          "Models": "1.0.0"
         },
         "runtime": {
           "DataAccess.dll": {}

@@ -5,7 +5,22 @@
       "ProjectGuid": "d73eb83d-6e7e-4481-95b9-ab60f4300c58",
       "DisplayName": "TaskManagerWebAPI",
       "ColorIndex": 0
+    },
+    "22991fb4-1153-4f8c-85a7-f80709c6310c": {
+      "ProjectGuid": "22991fb4-1153-4f8c-85a7-f80709c6310c",
+      "DisplayName": "Models",
+      "ColorIndex": 1
+    },
+    "720a292f-d4e1-419e-9113-0edbe3f0a1e2": {
+      "ProjectGuid": "720a292f-d4e1-419e-9113-0edbe3f0a1e2",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

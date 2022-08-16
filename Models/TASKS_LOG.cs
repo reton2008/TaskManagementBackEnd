@@ -16,14 +16,14 @@ namespace Models
 
         [Required]
         public int TASK_ID { get; set; }
-        [ForeignKey("TASKS_LOG_TASK_ID")]
+        [ForeignKey("TASKSLOGTASKID")]
         public TASKS TASKS_LOG_TASK_ID { get; set; }
 
         public string CURRENT_STATUS { get; set; }
         public string PREVIOUS_STATUS { get; set; }
 
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public DateOnly STATUS_CHANGE_AT { get; set; }
+        public DateTime STATUS_CHANGE_AT { get; set; }
         public int? MAKE_BY { get; set; }
 
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]

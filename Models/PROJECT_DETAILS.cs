@@ -14,14 +14,14 @@ namespace Models
         [Required]
         public int PROJECT_ID { get; set; }
 
-        [ForeignKey("PROJECTS_DETAILS_ID")]
-        public PROJECTS PROJECTS_DETAILS_ID { get; set; }
+        //[ForeignKey("PROJECTSDETAILSID")]
+        //public PROJECTS PROJECTS_DETAILS_ID { get; set; }
 
         [Required]
         public int PROJECT_TEAM { get; set; }
 
-        [ForeignKey("PROJECT_TEAMS_ID")]
-        public TEAMS PROJECT_TEAMS_ID { get; set; }
+        //[ForeignKey("PROJECTTEAMSID")]
+        //public TEAMS PROJECT_TEAMS_ID { get; set; }
 
         public string? REMARKS { get; set; }
 
